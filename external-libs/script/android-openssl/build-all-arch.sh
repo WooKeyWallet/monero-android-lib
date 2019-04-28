@@ -9,7 +9,7 @@ set -e
 SRC_DIR=$EXTERNAL_LIBS_BUILD_ROOT/android-openssl
 TARGET_DIR=$EXTERNAL_LIBS_ROOT/openssl
 
-archs=(arm arm64 x86 x86_64)
+archs=(arm arm64)
 
 for arch in ${archs[@]}; do
     xLIB="/lib"
