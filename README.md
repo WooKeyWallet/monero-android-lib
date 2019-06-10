@@ -19,9 +19,9 @@ $ aptitude install build-essential cmake tofrodos libtool-bin autoconf pkg-confi
 $ mkdir /opt/android
 $ chown $LOGNAME /opt/android
 $ cd /opt/android
-$ wget https://dl.google.com/android/repository/android-ndk-r15c-linux-x86_64.zip
-$ unzip android-ndk-r15c-linux-x86_64.zip
-$ mv android-ndk-r15c ndk-r15c
+$ wget https://dl.google.com/android/repository/android-ndk-r17c-linux-x86_64.zip
+$ unzip android-ndk-r17c-linux-x86_64.zip
+$ mv android-ndk-r17c ndk-r17c
 ```
 
 ### Build Monero
